@@ -32,8 +32,12 @@ html {
 		justify-content: center;
 		align-items: center;
 		color: white;
+		letter-spacing: 7px;
 		a {
 			color: white;
+			&:hover {
+				color:gray;
+			}
 		}
 	}
 	// .page__body
